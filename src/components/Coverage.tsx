@@ -21,7 +21,7 @@ const Coverage = () => {
     {
       icon: Users,
       number: '1000+',
-      label: 'Pelanggan Aktif',
+      label: 'Titik Internet Aktif',
       color: 'text-purple-600'
     },
     {
