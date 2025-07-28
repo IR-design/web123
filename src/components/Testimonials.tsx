@@ -4,7 +4,7 @@ import { Star, Quote } from 'lucide-react';
 const Testimonials = () => {
   const testimonials = [
     {
-      name: 'Zaka',
+      name: 'Ajip',
       location: 'Perumahan Kalita',
       image: 'https://images.pexels.com/photos/1525041/pexels-photo-1525041.jpeg?auto=compress&cs=tinysrgb&w=150',
       text: 'Internet dari GEN sangat stabil dan cepat. Anak-anak bisa sekolah online tanpa gangguan, dan saya bisa work from home dengan lancar.',
@@ -25,7 +25,7 @@ const Testimonials = () => {
       rating: 5
     },
     {
-      name: 'Ajip',
+      name: 'Zaka',
       location: 'Perumahan Kalita',
       image: 'https://images.pexels.com/photos/3183198/pexels-photo-3183198.jpeg?auto=compress&cs=tinysrgb&w=150',
       text: 'Instalasi cepat dan mudah. Teknisi profesional dan menjelaskan dengan baik. Sekarang seluruh keluarga bisa internetan bareng.',
