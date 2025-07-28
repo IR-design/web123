@@ -11,9 +11,9 @@ const Testimonials = () => {
       rating: 5
     },
     {
-      name: 'Siti Nurhaliza',
-      location: 'Komplek Bukit Indah',
-      image: 'https://images.pexels.com/photos/1181424/pexels-photo-1181424.jpeg?auto=compress&cs=tinysrgb&w=150',
+      name: 'Taopik',
+      location: 'Perumahan Kalita',
+      image: 'https://images.pexels.com/photos/3656852/pexels-photo-3656852.jpeg?auto=compress&cs=tinysrgb&w=150',
       text: 'Pelayanan customer service sangat ramah dan responsif. Ketika ada masalah, langsung ditangani dengan cepat. Recommended!',
       rating: 5
     },
