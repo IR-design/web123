@@ -14,7 +14,7 @@ const Coverage = () => {
   const stats = [
     {
       icon: MapPin,
-      number: '6+',
+      number: '100+',
       label: 'Area Terjangkau',
       color: 'text-blue-600'
     },
