@@ -51,10 +51,10 @@ const Packages = () => {
         'Streaming FHD, multitasking antar anggota keluarga',
         'Cocok untuk 6-8 perangkat',
         'Work from home optimal',
-        'Video conference HD',
-        'Backup connection',
+        'Internet tetap stabil walau digunakan bersama',
+        'Lancar untuk Zoom meeting, upload file, multitasking',
         'Support prioritas 24/7',
-        'Gratis instalasi & router premium'
+        'Router premium'
       ],
       icon: Crown,
       popular: false,
