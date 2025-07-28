@@ -34,13 +34,13 @@ const Testimonials = () => {
   ];
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-white dark:bg-gray-900 transition-colors duration-300">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-800 mb-4">
+          <h2 className="text-4xl font-bold text-gray-800 dark:text-white mb-4">
             Apa Kata Pelanggan Kami?
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
             Kepuasan pelanggan adalah prioritas utama kami. Lihat testimoni dari pelanggan yang sudah merasakan layanan GEN
           </p>
         </div>
@@ -48,7 +48,7 @@ const Testimonials = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="group">
-              <div className="bg-gray-50 p-6 rounded-2xl hover:shadow-lg transition-all duration-300 transform group-hover:-translate-y-2 h-full">
+              <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-2xl hover:shadow-lg transition-all duration-300 transform group-hover:-translate-y-2 h-full">
                 <div className="flex items-center mb-4">
                   <div className="flex">
                     {[...Array(testimonial.rating)].map((_, i) => (
@@ -58,8 +58,8 @@ const Testimonials = () => {
                 </div>
                 
                 <div className="relative mb-6">
-                  <Quote className="w-8 h-8 text-blue-200 mb-2" />
-                  <p className="text-gray-700 italic leading-relaxed">
+                  <Quote className="w-8 h-8 text-blue-200 dark:text-blue-400 mb-2" />
+                  <p className="text-gray-700 dark:text-gray-300 italic leading-relaxed">
                     "{testimonial.text}"
                   </p>
                 </div>
@@ -71,8 +71,8 @@ const Testimonials = () => {
                     className="w-12 h-12 rounded-full object-cover mr-4"
                   />
                   <div>
-                    <h4 className="font-semibold text-gray-800">{testimonial.name}</h4>
-                    <p className="text-sm text-gray-600">{testimonial.location}</p>
+                    <h4 className="font-semibold text-gray-800 dark:text-white">{testimonial.name}</h4>
+                    <p className="text-sm text-gray-600 dark:text-gray-400">{testimonial.location}</p>
                   </div>
                 </div>
               </div>
@@ -81,7 +81,7 @@ const Testimonials = () => {
         </div>
 
         <div className="text-center mt-12">
-          <p className="text-gray-600 mb-4">
+          <p className="text-gray-600 dark:text-gray-300 mb-4">
             Bergabunglah dengan ribuan pelanggan puas lainnya
           </p>
           <a
