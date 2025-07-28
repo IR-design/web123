@@ -11,9 +11,9 @@ const Packages = () => {
       discount: '25%',
       features: [
         'Kecepatan hingga 10 Mbps',
-        'Unlimited kuota',
+        'Aktivitas ringan: browsing, YouTube, chatting',
         'Cocok untuk 2-3 perangkat',
-        'Streaming HD lancar',
+        'Stabil untuk penggunaan personal',
         'Support 24/7',
         'Gratis instalasi'
       ],
