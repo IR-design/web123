@@ -72,9 +72,9 @@ const Packages = () => {
         'Cocok untuk 8-10 perangkat',
         'Streaming 4K multiple device',
         'Gaming pro tanpa lag',
-        'Cloud backup included',
-        'Dedicated support',
-        'Gratis instalasi & router premium'
+        'Stabil meskipun banyak pengguna bersamaan',
+        'Router premium',
+        '🏷️ High-Performance – Cocok untuk Netflix 4K, YouTube 4K, dan Smart TV'
       ],
       icon: Crown,
       popular: false,
@@ -88,13 +88,13 @@ const Packages = () => {
       discount: '23%',
       features: [
         'Kecepatan hingga 100 Mbps',
-        'Unlimited kuota',
+        'Support WiFi 6 untuk smart home modern',
         'Unlimited perangkat',
         'Ultra HD streaming',
-        'Professional gaming',
+        'Streaming 4K, main game online, upload video — semua tanpa lag',
         'Priority bandwidth',
-        'VIP support 24/7',
-        'Gratis instalasi & router enterprise',
+        'Cocok untuk rumah dengan banyak perangkat & kebutuhan berat',
+        'Router enterprise',
         'Static IP available'
       ],
       icon: Crown,
