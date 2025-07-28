@@ -48,7 +48,7 @@ const Packages = () => {
       discount: '21%',
       features: [
         'Kecepatan hingga 30 Mbps',
-        'Zoom Meeting, upload dokumen besar',
+        'Streaming FHD, multitasking antar anggota keluarga',
         'Cocok untuk 6-8 perangkat',
         'Work from home optimal',
         'Video conference HD',
