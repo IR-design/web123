@@ -3,18 +3,18 @@ import { MapPin, Clock, Users } from 'lucide-react';
 
 const Coverage = () => {
   const coverageAreas = [
-    'Perumahan Kalita',
-    'Komplek Bukit Indah',
-    'Perumahan Griya Asri',
-    'Komplek Taman Sari',
-    'Perumahan Puri Indah',
-    'Apartemen Green Valley'
+    'Cluster Kalita D-1',
+    'Cluster Kalita D-2',
+    'Cluster Kalita D-3',
+    'Cluster Kalita D-4',
+    'Cluster Kalita D-5',
+    'Cluster Kalita D-6'
   ];
 
   const stats = [
     {
       icon: MapPin,
-      number: '15+',
+      number: '6+',
       label: 'Area Terjangkau',
       color: 'text-blue-600'
     },
