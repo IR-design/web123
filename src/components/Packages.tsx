@@ -91,8 +91,8 @@ const Packages = () => {
         'Support WiFi 6 untuk smart home modern',
         'Unlimited perangkat',
         'Ultra HD streaming',
-        'Streaming 4K, main game online, upload video — semua tanpa lag',
         'Priority bandwidth',
+        'Streaming 4K, main game online, upload video — semua tanpa lag',
         'Cocok untuk rumah dengan banyak perangkat & kebutuhan berat',
         'Router enterprise',
         'Static IP available'
