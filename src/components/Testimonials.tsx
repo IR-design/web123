@@ -18,9 +18,9 @@ const Testimonials = () => {
       rating: 5
     },
     {
-      name: 'Ahmad Wijaya',
-      location: 'Perumahan Griya Asri',
-      image: 'https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=150',
+      name: 'Fadly',
+      location: 'Perumahan Kalita',
+      image: 'https://images.pexels.com/photos/374074/pexels-photo-374074.jpeg?auto=compress&cs=tinysrgb&w=150',
       text: 'Harga terjangkau dengan kualitas internet yang bagus. Cocok untuk keluarga dengan budget terbatas tapi butuh internet cepat.',
       rating: 5
     },
