@@ -28,8 +28,8 @@ const Hero = () => {
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-              Solusi WiFi Cerdas untuk Kenyamanan Digital di Setiap Rumah
-              <span className="bg-gradient-to-r from-yellow-400 to-pink-400 bg-clip-text text-transparent"> Perumahan</span>
+              Solusi WiFi Cerdas untuk Kenyamanan Digital di
+              <span className="bg-gradient-to-r from-yellow-400 to-pink-400 bg-clip-text text-transparent"> Perumahan Masa Kini</span>
             </h1>
             
             <p className="text-xl md:text-2xl mb-8 text-blue-100 leading-relaxed">
