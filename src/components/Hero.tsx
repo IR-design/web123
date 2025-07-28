@@ -35,7 +35,7 @@ const Hero = () => {
             <p className="text-xl md:text-2xl mb-8 text-blue-100 leading-relaxed">
               Nikmati internet tanpa batas dengan kecepatan tinggi
               <br />
-              <span className="text-yellow-400 font-semibold">Mulai dari 150 Ribu-an Saja</span>
+              <span className="text-yellow-400 font-semibold">Mulai dari 100 Ribu-an Saja</span>
               <br />
               <span className="bg-gradient-to-r from-red-400 to-pink-400 bg-clip-text text-transparent font-bold text-lg animate-pulse">
                 🔥 DISKON HINGGA 27% - Khusus Warga Kalita! 🔥
