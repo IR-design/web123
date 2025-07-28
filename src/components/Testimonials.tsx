@@ -25,9 +25,9 @@ const Testimonials = () => {
       rating: 5
     },
     {
-      name: 'Linda Sari',
-      location: 'Komplek Taman Sari',
-      image: 'https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg?auto=compress&cs=tinysrgb&w=150',
+      name: 'Ajip',
+      location: 'Perumahan Kalita',
+      image: 'https://images.pexels.com/photos/3183198/pexels-photo-3183198.jpeg?auto=compress&cs=tinysrgb&w=150',
       text: 'Instalasi cepat dan mudah. Teknisi profesional dan menjelaskan dengan baik. Sekarang seluruh keluarga bisa internetan bareng.',
       rating: 5
     }
