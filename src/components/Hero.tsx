@@ -28,7 +28,7 @@ const Hero = () => {
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-              Solusi WiFi Cerdas untuk
+              Solusi WiFi Cerdas untuk Kenyamanan Digital di Setiap Rumah
               <span className="bg-gradient-to-r from-yellow-400 to-pink-400 bg-clip-text text-transparent"> Perumahan</span>
             </h1>
             
