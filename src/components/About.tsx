@@ -79,7 +79,7 @@ const About = () => {
             </div>
             <div className="text-center">
               <img
-                src="https://images.pexels.com/photos/4790594/pexels-photo-4790594.jpeg?auto=compress&cs=tinysrgb&w=600"
+                src="https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg?auto=compress&cs=tinysrgb&w=600"
                 alt="Customer support"
                 className="w-full max-w-md mx-auto rounded-2xl shadow-xl"
               />
