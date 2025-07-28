@@ -1,0 +1,101 @@
+import React from 'react';
+import { Star, Quote } from 'lucide-react';
+
+const Testimonials = () => {
+  const testimonials = [
+    {
+      name: 'Budi Santoso',
+      location: 'Perumahan Kalita',
+      image: 'https://images.pexels.com/photos/1212984/pexels-photo-1212984.jpeg?auto=compress&cs=tinysrgb&w=150',
+      text: 'Internet dari GEN sangat stabil dan cepat. Anak-anak bisa sekolah online tanpa gangguan, dan saya bisa work from home dengan lancar.',
+      rating: 5
+    },
+    {
+      name: 'Siti Nurhaliza',
+      location: 'Komplek Bukit Indah',
+      image: 'https://images.pexels.com/photos/1181424/pexels-photo-1181424.jpeg?auto=compress&cs=tinysrgb&w=150',
+      text: 'Pelayanan customer service sangat ramah dan responsif. Ketika ada masalah, langsung ditangani dengan cepat. Recommended!',
+      rating: 5
+    },
+    {
+      name: 'Ahmad Wijaya',
+      location: 'Perumahan Griya Asri',
+      image: 'https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=150',
+      text: 'Harga terjangkau dengan kualitas internet yang bagus. Cocok untuk keluarga dengan budget terbatas tapi butuh internet cepat.',
+      rating: 5
+    },
+    {
+      name: 'Linda Sari',
+      location: 'Komplek Taman Sari',
+      image: 'https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg?auto=compress&cs=tinysrgb&w=150',
+      text: 'Instalasi cepat dan mudah. Teknisi profesional dan menjelaskan dengan baik. Sekarang seluruh keluarga bisa internetan bareng.',
+      rating: 5
+    }
+  ];
+
+  return (
+    <section className="py-20 bg-white">
+      <div className="container mx-auto px-4">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl font-bold text-gray-800 mb-4">
+            Apa Kata Pelanggan Kami?
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            Kepuasan pelanggan adalah prioritas utama kami. Lihat testimoni dari pelanggan yang sudah merasakan layanan GEN
+          </p>
+        </div>
+
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {testimonials.map((testimonial, index) => (
+            <div key={index} className="group">
+              <div className="bg-gray-50 p-6 rounded-2xl hover:shadow-lg transition-all duration-300 transform group-hover:-translate-y-2 h-full">
+                <div className="flex items-center mb-4">
+                  <div className="flex">
+                    {[...Array(testimonial.rating)].map((_, i) => (
+                      <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
+                    ))}
+                  </div>
+                </div>
+                
+                <div className="relative mb-6">
+                  <Quote className="w-8 h-8 text-blue-200 mb-2" />
+                  <p className="text-gray-700 italic leading-relaxed">
+                    "{testimonial.text}"
+                  </p>
+                </div>
+                
+                <div className="flex items-center">
+                  <img
+                    src={testimonial.image}
+                    alt={testimonial.name}
+                    className="w-12 h-12 rounded-full object-cover mr-4"
+                  />
+                  <div>
+                    <h4 className="font-semibold text-gray-800">{testimonial.name}</h4>
+                    <p className="text-sm text-gray-600">{testimonial.location}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <div className="text-center mt-12">
+          <p className="text-gray-600 mb-4">
+            Bergabunglah dengan ribuan pelanggan puas lainnya
+          </p>
+          <a
+            href="https://wa.me/6285117246022?text=Halo, saya tertarik untuk berlangganan internet GEN"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-full font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-200 transform hover:scale-105"
+          >
+            Daftar Sekarang
+          </a>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Testimonials;
