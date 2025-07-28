@@ -38,7 +38,7 @@ const Hero = () => {
               <span className="text-yellow-400 font-semibold">Mulai dari 150 Ribu-an Saja</span>
               <br />
               <span className="bg-gradient-to-r from-red-400 to-pink-400 bg-clip-text text-transparent font-bold text-lg animate-pulse">
-                🔥 DISKON HINGGA 27% - TERBATAS! 🔥
+                🔥 DISKON HINGGA 27% - Khusus Warga Kalita! 🔥
               </span>
             </p>
             
