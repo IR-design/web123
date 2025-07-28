@@ -29,12 +29,12 @@ const Packages = () => {
       discount: '27%',
       features: [
         'Kecepatan hingga 20 Mbps',
-        'Unlimited kuota',
+        'Aktivitas sedang: streaming video HD, video call, belajar online',
         'Cocok untuk 4-5 perangkat',
-        'Streaming 4K lancar',
-        'Gaming online stabil',
+        'Aman untuk kebutuhan WiFi keluarga kecil',
+        'Rekomendasi untuk streaming Netflix HD',
         'Support prioritas 24/7',
-        'Gratis instalasi & router'
+        '🏷️ **Best Seller**'
       ],
       icon: Star,
       popular: true,
@@ -48,7 +48,9 @@ const Packages = () => {
       discount: '21%',
       features: [
         'Kecepatan hingga 30 Mbps',
-        'Unlimited kuota',
+        'Mendukung aktivitas berat seperti:
+• Zoom Meeting, upload dokumen besar
+• Streaming FHD, multitasking antar anggota keluarga',
         'Cocok untuk 6-8 perangkat',
         'Work from home optimal',
         'Video conference HD',
