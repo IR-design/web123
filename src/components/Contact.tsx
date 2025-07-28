@@ -73,7 +73,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-800">Alamat</h4>
-                  <p className="text-gray-600">Melayani Area RT/RW Sekitar</p>
+                  <p className="text-gray-600">Melayani Area Cluster Kalita</p>
                 </div>
               </div>
               
