@@ -15,7 +15,7 @@ const Packages = () => {
         'Cocok untuk 2-3 perangkat',
         'Stabil untuk penggunaan personal',
         'Support 24/7',
-        'Gratis instalasi'
+        '🏷️ Best Price untuk penggunaan dasar'
       ],
       icon: Zap,
       popular: false,
