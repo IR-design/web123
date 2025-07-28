@@ -120,7 +120,7 @@ const Packages = () => {
             Dapatkan koneksi internet super cepat dengan harga terjangkau
           </p>
           <div className="inline-flex items-center bg-gradient-to-r from-red-500 to-pink-500 text-white px-6 py-3 rounded-full font-bold text-lg animate-pulse">
-            🔥 DISKON HINGGA 27% - PENAWARAN TERBATAS! 🔥
+            🔥 DISKON HINGGA 27% - PENAWARAN Khusus Warga Kalita! 🔥
           </div>
         </div>
 
