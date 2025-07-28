@@ -90,12 +90,12 @@ const Packages = () => {
         'Kecepatan hingga 100 Mbps',
         'Support WiFi 6 untuk smart home modern',
         'Unlimited perangkat',
-        'Ultra HD streaming',
+        'Ultra FHD streaming',
         'Priority bandwidth',
         'Streaming 4K, main game online, upload video — semua tanpa lag',
         'Cocok untuk rumah dengan banyak perangkat & kebutuhan berat',
         'Router enterprise',
-        'Static IP available'
+        '👑 Solusi internet cepat dan stabil, kapan pun kamu butuh!'
       ],
       icon: Crown,
       popular: false,
