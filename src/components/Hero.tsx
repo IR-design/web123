@@ -76,7 +76,7 @@ const Hero = () => {
           <div className="relative">
             <div className="relative bg-white bg-opacity-10 backdrop-blur-sm rounded-3xl p-8 border border-white border-opacity-20">
               <img
-                src="https://www.pexels.com/photo/person-using-macbook-air-38547/"
+                src="Photo by Pixabay from Pexels: https://www.pexels.com/photo/person-using-macbook-air-38547/"
                 alt="Happy family using internet"
                 className="w-full h-auto rounded-2xl shadow-xl"
               />
