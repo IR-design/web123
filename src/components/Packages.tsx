@@ -64,8 +64,8 @@ const Packages = () => {
       name: 'Premium',
       speed: '50 Mbps',
       originalPrice: 'Rp 450.000',
-      price: 'Rp 350.000',
-      discount: '22%',
+      price: 'Rp 300.000',
+      discount: '33%',
       features: [
         'Kecepatan hingga 50 Mbps',
         'Unlimited kuota',
