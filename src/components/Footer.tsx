@@ -55,7 +55,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <MapPin className="w-4 h-4 mr-2" />
-                <span>Melayani Area RT/RW</span>
+                <span>Melayani Cluster Kalita</span>
               </li>
             </ul>
           </div>
