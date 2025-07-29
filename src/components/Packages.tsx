@@ -44,8 +44,8 @@ const Packages = () => {
       name: 'Business',
       speed: '30 Mbps',
       originalPrice: 'Rp 350.000',
-      price: 'Rp 275.000',
-      discount: '21%',
+      price: 'Rp 265.000',
+      discount: '24%',
       features: [
         'Kecepatan hingga 30 Mbps',
         'Streaming FHD, multitasking antar anggota keluarga',
