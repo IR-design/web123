@@ -4,7 +4,7 @@ import { Star, Quote } from 'lucide-react';
 const Testimonials = () => {
   const testimonials = [
     {
-      name: 'Ajip',
+      name: 'Bambang',
       location: 'Perumahan Kalita',
       image: 'https://images.pexels.com/photos/1525041/pexels-photo-1525041.jpeg?auto=compress&cs=tinysrgb&w=150',
       text: 'Internet dari GEN sangat stabil dan cepat. Anak-anak bisa sekolah online tanpa gangguan, dan saya bisa work from home dengan lancar.',
